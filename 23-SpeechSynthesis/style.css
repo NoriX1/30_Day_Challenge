@@ -68,10 +68,6 @@ textarea {
   height: 20rem;
 }
 
-input[type="select"] {
-
-}
-
 .voiceinator button {
   background: #ffc600;
   border: 0;
@@ -91,4 +87,20 @@ input[type="select"] {
 
 .voiceinator button:nth-of-type(1) {
   margin-right: 2%;
+}
+.home__button{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 1.5rem 2rem; 
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 3px 3px 0 #F3C010;
+  color: black;
+  text-decoration: none;
+
 }
